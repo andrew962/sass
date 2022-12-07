@@ -1,4 +1,6 @@
-@use "variables";
+@use "variables" with (
+    $primary: red
+);
 
 body {
     background-color: variables.$primary;
